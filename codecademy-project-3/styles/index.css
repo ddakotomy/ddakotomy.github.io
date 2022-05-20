@@ -1,0 +1,281 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+main{
+    background-image: url("../assets/hero-image.jpg");
+    background-size:cover;
+    background-position:center;
+    width:100vw;
+    height:100vh;
+}
+
+
+h1{
+    color:#EEF1EB;    
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+p{
+    color:#EEF1EB;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.footer-text{
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B2700;
+}
+
+#desktop-logo{
+    position: relative;
+    top:40px;
+    left:40px;
+    display: grid;
+    justify-content: center;
+    width:64px;
+    height:27px;
+    background-image: url("../assets/Logo.svg");
+}
+
+nav{
+    height: 0px;
+}
+
+
+.x-button{
+    font-family: PP Neue Montreal;
+    font-weight: 500;
+    color:#1B2700;
+    font-size:24px;
+    position: absolute;
+    top:40px;
+    right:40px;
+}
+
+.hamburger-nav {
+    padding:104px;
+    display: grid;
+    justify-items: center;
+    background-color: #EEF1EB;
+    width:585px;
+    min-height:100vh;
+    position: absolute;
+    right:-795px;
+    top:-16px;
+    z-index: 1000;
+}
+
+ul{
+    display: grid;
+    height:188px;
+    align-content: space-between;
+    padding: 0px;
+}
+
+li{
+    text-align: center;  
+    font-family: 'PP Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1B2900;
+    list-style: none;
+}
+
+#mobile-logo{
+    background: url("../assets/logo-and-tagline.svg");
+    background-repeat: none;
+    height:75px;
+    width:120px;
+    fill:#1B2700;
+}
+
+span{
+    font-family: PP Editorial New;
+    font-style: italic;
+    font-weight: 400;
+    color:#6E806B;
+}
+
+.content-container{
+    position:absolute;
+    height: 181px;
+    width: 386px;
+    right:20vw;
+    top: 50vh;
+    transform:translate(0px, -90.5px);  
+}
+
+button{
+    height: 33px;
+    width: 158.34304809570312px;
+    left: 1039px;
+    top: 528px;
+    border-radius: 100px;
+    padding: 6px, 16px, 6px, 16px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.content-container a span{
+    margin-left:16px;
+}
+
+a, a:link, a:active, a:hover, a:visited{
+    color:#6E806B;
+}
+
+.cta-container{
+    display: flex;
+    align-items: baseline
+}
+
+.purchase-cta{
+    margin:40px 0px 0px 0px;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding:0px 12px;
+}
+
+.cta-text a{
+    color:black;
+    text-decoration: none;
+}
+
+
+.arrow-ui{
+    display: grid;
+    grid-template-rows: 15px;
+    width: 5.9px;
+    cursor: pointer;
+}
+
+#arrow-up{
+    width:15px;
+    height:15px;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    padding-bottom:4px;
+}
+
+#arrow-down{
+    width:15px;
+    height:15px;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    padding-top:4px;
+}
+
+#seperator{
+    margin-left:8px;
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    width:100vw;
+    display:inline-flex;
+    justify-content:space-between;
+}
+
+footer p {
+    padding:40px;
+}
+
+.social{
+    display: grid;
+    justify-items: center;
+    align-content: baseline;
+}
+
+.social-divide{
+    width:300px;
+    height:1px;
+    background-color:#92968C;
+    opacity:.3;
+    margin-bottom:40px;
+}
+
+.social-icons-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:120px;
+}
+
+.icon{
+    width:24px;
+    height:24px;
+    margin:8px;
+    cursor: pointer;
+}
+
+#tiktok{
+    background-image: url("../assets/tiktok.svg");
+}
+
+#twitter{
+    background-image: url("../assets/twitter.svg");
+}
+
+
+#instagram{
+    background-image: url("../assets/instagram.svg");
+}
+
+
+
+.navigation-ui{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin:40px;
+}
+
+.user{
+    background-image: url("../assets/user.svg");
+}
+
+.cart{
+    background-image: url("../assets/cart.svg");
+}
+
+.hamburger{
+    background-image: url("../assets/hamburger.svg");
+    height:10px;
+    margin-left:18px;
+}
